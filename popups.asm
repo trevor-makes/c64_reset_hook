@@ -61,12 +61,12 @@ payloadSrc:
 
 // autostart cartridge signature
 .segment Signature
-    .word coldStart // cold start vector
+    .word reset // cold start vector
     .word restore // warm start vector
     .byte $c3,$c2,$cd,$38,$30 // CBM80
 
 .segment Code
-coldStart: {
+reset: {
     // mirror KERNAL reset vector from $FCEF
     stx $d016 // clear bit 5 to reset VIC-II
     jsr $fda3 // init CIA+SID

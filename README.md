@@ -95,6 +95,6 @@ Also consider that the BRK instruction handler vectored through `$316` points to
 
 ## More info
 
-<http://tech.guitarsite.de/cbm80.html>
-<https://www.c64-wiki.com/wiki/Reset_Button>
-<https://ist.uwaterloo.ca/~schepers/MJK/hard_reset.html>
+- <http://tech.guitarsite.de/cbm80.html>
+- <https://www.c64-wiki.com/wiki/Reset_Button>
+- <https://ist.uwaterloo.ca/~schepers/MJK/hard_reset.html>
