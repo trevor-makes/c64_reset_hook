@@ -2,7 +2,7 @@
 
 Examples using the `CBM80` cartridge auto-start signature in RAM to intercept a reset switch.
 
-Watch [this video]() to learn more.
+Watch [this video](https://youtu.be/OV5tNYhqQ7w) to learn more.
 
 ![](popups.jpg)
 
